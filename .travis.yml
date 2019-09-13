@@ -6,7 +6,4 @@ before_install:
 script:
   docker run -e CI=true miladi7/react-docker npm run test
 
-deploy:
-  provider: elasticbeanstalk
-  
     
